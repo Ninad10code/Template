@@ -1,11 +1,14 @@
 body{
     background-color: #5D6D7E;
-    padding-left: 100px;
+    padding-left: 260px;
+    align-content: center;
+    align-items: center;
+    align-self: center;
     
 }
 main{
-    background-color: #F0F3F4;
-    width: 60%;
+    background-color: #FDFEFE;
+    width: 765px; 
     height: 600px;
     border-radius: 10%;
     border-top-left-radius: 10px;
@@ -14,6 +17,8 @@ main{
     border-bottom-right-radius: 10px;
     padding-left: 50px;
     box-shadow: black;
+    align-items: center;
+    
 }
 .cover{
     padding-top: 100px;
@@ -27,6 +32,10 @@ main{
     padding-top: 10px;
     
 }
+#gci {
+    float: right;
+}
+
 .congrats {
     font-family: 'Ma Shan Zheng', cursive;
     font-size: 80px;
@@ -37,6 +46,11 @@ main{
 }
 .code {
     float: left;
+}
+
+.mrs{
+    float: left;
+    transform: rotate(90deg);
 }
 #name{
     font-family: 'Ubuntu', sans-serif;
